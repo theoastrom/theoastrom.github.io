@@ -1,0 +1,88 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Vapen</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Tips </a></li>
+                    <li><a href="menyval2.html">Taktiker</a></li>
+                    <li><a href="menyval3.html">Vapen</a></li>
+                    <li><a id="vald" href="menyval4.html">Skins</a></li>
+
+
+                    <link rel="shortcut icon" type="image/png" href="bilder/lol.png"/>
+                </ul>
+            </div>
+        </nav>
+                <div class="col-sm-4"><iframe class="video" width="350" height="200" src="https://www.youtube.com/watch?v=CxLjS4LWvBA" frameborder="0" allowfullscreen></iframe></div>  
+                
+
+                <div class="col-sm-4">
+        <center>
+        <h2>Skins i CS:GO </h2>
+        <h4> Här säger jag dem bästa skinsen i CS:GO</h4>
+        <div id="text">
+        <b id="ak"><p><u>AWP | Dragon Lore</u></p></b>
+
+        <p> Dragon Lore kostar Unefär 16.500kr, det är sjukt. </p>
+        
+        
+
+        <img id="tårta" src="bilder/dregon.png">
+
+
+        <b id="awp"><p><u>Ak47 | Fire Serpent</u></p></b>
+        <p> Fire serpent kostar 9.200kr </p>
+
+        <img id="bild" src="bilder/fire.png">
+
+        <b id="usp"><p><u>Karambit | Crimson Web</u></p></b>
+        <p> Denna kostar 26 tusen, vilket är <b>HEEELLTT</b> sjukt</p>
+
+        <img id="hello" src="bilder/karambit.png">
+
+       
+
+        <font color="#000">
+        <h5 id="vapentext" color:black  style="font-size: 20px;">Detta e dem dyraste skinsen i CS:GO. </h5> 
+        <p id="tree" style="font-size: 14px;">Psst... Prova klicka med musen på texten med namnen till skinsen som tex "Awp | Dragon Lore". </p>
+        </font>
+        </div>
+        </center>
+        </div>
+
+
+        
+
+        </body>
+        </html>

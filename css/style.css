@@ -1,0 +1,104 @@
+body- {
+	background-color: lightgreen;
+}
+
+p{ font-size: 12px
+
+}
+link{color:green;
+
+}
+
+.bakgrund{
+	background-image:url("../bilder/hemsida.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+
+
+body {
+	color:white;
+}
+
+body {
+	font-size: 20px
+}
+a:hover {
+	color: rgba(50, 51, 79);
+}
+.navbar-inverse {
+    background-color: #9b59b6;
+}
+.navbar-inverse .navbar-nav > li > a , .navbar-inverse .navbar-brand{
+    color: white;
+}
+a {
+	color:white;
+}
+#vald {
+	color:black;
+}
+#text {
+	border: 1px solid blue;
+	background-color:rgba(50, 51, 79,0.5); 
+	text-align: center;
+	word-wrap: break-word;
+	width: 300px;
+}
+
+#bild{
+	width: 97%;
+	height:97%;
+
+}
+
+#hello {
+	width:45%;
+	height:;
+}
+#tårta {
+	width:85%;
+	height:85%;
+}
+#tree {
+	color:white;
+}
+
+.video {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+#vapentext {
+	color:white;
+
+}
+
+#kommentarsfält {
+	position: absolute;
+	top: 300px;
+	right: -290px;
+}
+
+#knapp {
+
+	color:green;
+}
+
+#loggain {
+	position: absolute;
+	top: 1000px;
+	right: 100px;
+
+}
+#bakgrund {
+	background-color: cyan;
+}
+
+#knappar {
+	margin:45px;
+}
+
+

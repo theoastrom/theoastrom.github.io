@@ -1,0 +1,51 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in Bootstrap och JQuery javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>CS:GO Tips&Trix</title>
+    <html lang="en">
+    <title>How to Integrate Google “No CAPTCHA reCAPTCHA” on Your Website</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body> 
+<form action="" method="post">
+ 
+      <label for="name">Name:</label>
+      <input name="name" required><br />
+ 
+      <label for="email">Email:</label>
+      <input name="email" type="email" required><br />
+ 
+      <div class="g-recaptcha" data-sitekey="6Ldr6igUAAAAAMluYV_WZdt7eT20vzGLOn6oD1-2"></div>
+ 
+      <input type="submit" value="Submit" />
+ 
+    </form>
+ 
+    <!--js-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+</body> 
+</html>

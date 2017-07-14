@@ -1,0 +1,85 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Vapen</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id="bakgrund">
+
+    <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+    
+
+    <nav class="nav navbar-inverse navbar-static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Startsida</a>
+            <ul class="nav navbar-nav">
+                <li><a href="menyval1.html">Tips </a></li>
+                <li><a href="menyval2.html">Taktiker</a></li>
+                <li><a href="menyval3.html">Vapen</a></li>
+                <li><a href="menyval4.html">Skins</a></li>
+                <li><a id="vald" href="loggin.html">Logga In</a></li>
+
+
+
+
+               <h4> Gör ett konto </h4>
+
+                <form ng-submit="addComment()">
+                    <div class="form-group">
+                        <input placeholder="Välj ditt Andvändarnamn" type="text" id="skribent" class="form-control" ng-model="kommentar.skribent">
+                    </div>
+                    <div class="form-group">
+                        <input placeholder="Välj lösenord" type="password" id="text" class="form-control" ng-model="kommentar.text">
+                    </div>
+                    <button onclick="alert('Du har nu gjort ett konto')" type="submit" class="btn btn-success">Skapa ditt konto</button>
+
+                    
+                    <h4> Logga in </h4>
+                    <form ng-submit="addComment()">
+                    <div class="form-group">
+                        <input placeholder="Andvändarnamn" type="text" id="skribent" class="form-control" ng-model="kommentar.skribent">
+                    </div>
+                    <div class="form-group">
+                        <input placeholder="Lösenord" type="password" id="text" class="form-control" ng-model="kommentar.text">
+                    </div>
+                    <button onclick="alert('Du är nu inloggad')" id="knappar" type="submit" class="btn btn-success">Logga in</button> 
+
+                    <b><h3> Varför ska jag göra ett konto?</h3></b>
+                    <h5> Jo, för med konto får du tillträde att skriva i mitt kommentarsfält! :) <h5>
+
+
+
+                        </form>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+
+
+        </body>
+        </html>

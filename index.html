@@ -1,0 +1,110 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="bilder/lol.png"/>
+
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.2.0/angularfire.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>CS:GO</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body class=bakgrund ng-app="app">
+
+    <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+    <nav class="nav navbar-inverse navbar-static-top">
+        <div class="container">
+            <a class="navbar-brand" a id="vald" href="index.html">Startsida</a>
+            <ul class="nav navbar-nav">
+                <li><a href="menyval1.html">Tips</a></li>
+                <li><a href="menyval2.html">Taktiker</a></li>
+                <li><a href="menyval3.html">Vapen</a></li>
+                <li><a href="menyval4.html">Skins</a></li>
+              
+                
+
+
+            </ul>
+            <ul class="nav navbar-right">
+                <li><a href="loggin.html">Logga In</a></li>
+            </ul>
+            </div>
+         </nav>
+
+    <embed src="passport.mid" width="1" height="1" autostart="true" loop="false" ></embed>
+
+    <center>
+        <div id="text">
+            <b> Vad är då CS:GO? </b>
+            <p> CS:GO grundades av Valve och släpptes 2012 </p>
+            <p> Innan CS:GO släpptes fanns det några andra versioner av CS. 
+                som Tex Cs 1.6 och Counter-strike : Source </p>
+
+                <b> Vad händer på denna hemsida? </b>
+                <p> Jo, på denna hemsida berättar jag om <b> Taktiker Vapen </b> och <b> Tips </b>
+
+                    <h4> Här på sidan så finns trailern till CS. </h4>
+                    <h4> Och ifall du vill köpa CS så kan du trycka på länken under :D </h4>
+                    <a href="http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/.html" " target="_blank">Här köper du CS</a>
+                </div>
+                <div>
+
+                    </div>
+                    </main>
+
+                
+
+
+
+            </center>
+
+
+
+            <iframe width="0" height="0" src="https://www.youtube.com/embed/tBCnQS5jzbw?autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+            <iframe width="350" height="200" src="https://www.youtube.com/embed/edYCtaNueQY" frameborder="0" allowfullscreen></iframe></div>
+
+
+
+
+            
+        </body>
+        </html>
